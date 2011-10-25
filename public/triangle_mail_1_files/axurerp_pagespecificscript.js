@@ -42,6 +42,21 @@ function OnLoad(e) {
 
 }
 
+var u10 = document.getElementById('u10');
+
+if (bIE) u10.attachEvent("onmouseover", MouseOveru10);
+else u10.addEventListener("mouseover", MouseOveru10, true);
+function MouseOveru10(e)
+{
+if (!IsTrueMouseOver('u10',e)) return;
+if (true) {
+
+	self.location.href="triangle_survmail2.html" + GetQuerystring();
+
+}
+
+}
+
 var u5 = document.getElementById('u5');
 
 u5.style.cursor = 'pointer';
@@ -71,6 +86,21 @@ function Clicku3(e)
 if (true) {
 
 	self.location.href="depli_selec_mail_1.html" + GetQuerystring();
+
+}
+
+}
+
+var u9 = document.getElementById('u9');
+
+if (bIE) u9.attachEvent("onmouseover", MouseOveru9);
+else u9.addEventListener("mouseover", MouseOveru9, true);
+function MouseOveru9(e)
+{
+if (!IsTrueMouseOver('u9',e)) return;
+if (true) {
+
+	self.location.href="triangle_survmail1.html" + GetQuerystring();
 
 }
 

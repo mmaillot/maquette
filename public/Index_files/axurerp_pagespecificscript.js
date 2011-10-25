@@ -1,8 +1,8 @@
 
-var PageName = 'depli_1erselc_mail_1';
-var PageId = 'p8e05062db25b4262859f8c034dfc450e'
-var PageUrl = 'depli_1erselc_mail_1.html'
-document.title = 'depli_1erselc_mail_1';
+var PageName = 'Index';
+var PageId = 'p37852864210249c4b7c8acf3569ea8e3'
+var PageUrl = 'Index.html'
+document.title = 'Index';
 
 if (top.location != self.location)
 {
@@ -42,21 +42,6 @@ function OnLoad(e) {
 
 }
 
-var u10 = document.getElementById('u10');
-
-if (bIE) u10.attachEvent("onmouseover", MouseOveru10);
-else u10.addEventListener("mouseover", MouseOveru10, true);
-function MouseOveru10(e)
-{
-if (!IsTrueMouseOver('u10',e)) return;
-if (true) {
-
-	self.location.href="surv_mail_2_1.html" + GetQuerystring();
-
-}
-
-}
-
 var u5 = document.getElementById('u5');
 
 u5.style.cursor = 'pointer';
@@ -67,7 +52,7 @@ function Clicku5(e)
 
 if (true) {
 
-	self.location.href="depli_selec_mail_1.html" + GetQuerystring();
+	self.location.href="Autres.html" + GetQuerystring();
 
 }
 
@@ -85,22 +70,7 @@ function Clicku3(e)
 
 if (true) {
 
-	self.location.href="depli_selec_mail_1.html" + GetQuerystring();
-
-}
-
-}
-
-var u9 = document.getElementById('u9');
-
-if (bIE) u9.attachEvent("onmouseover", MouseOveru9);
-else u9.addEventListener("mouseover", MouseOveru9, true);
-function MouseOveru9(e)
-{
-if (!IsTrueMouseOver('u9',e)) return;
-if (true) {
-
-	self.location.href="surv_mail_1_1.html" + GetQuerystring();
+	self.location.href="triangle_mail_1.html" + GetQuerystring();
 
 }
 
@@ -126,15 +96,14 @@ var u1 = document.getElementById('u1');
 gv_vAlignTable['u1'] = 'center';
 var u4 = document.getElementById('u4');
 
-u4.style.cursor = 'pointer';
-if (bIE) u4.attachEvent("onclick", Clicku4);
-else u4.addEventListener("click", Clicku4, true);
-function Clicku4(e)
+if (bIE) u4.attachEvent("onmouseover", MouseOveru4);
+else u4.addEventListener("mouseover", MouseOveru4, true);
+function MouseOveru4(e)
 {
-
+if (!IsTrueMouseOver('u4',e)) return;
 if (true) {
 
-	self.location.href="triangle_mail_1.html" + GetQuerystring();
+	self.location.href="surv_objet_mail_1.html" + GetQuerystring();
 
 }
 
@@ -150,7 +119,7 @@ function Clicku7(e)
 
 if (true) {
 
-	self.location.href="mail_base.html" + GetQuerystring();
+	self.location.href="elements_envoyes_base.html" + GetQuerystring();
 
 }
 
@@ -166,7 +135,7 @@ function Clicku2(e)
 
 if (true) {
 
-	self.location.href="Home.html" + GetQuerystring();
+	self.location.href="Selec_mail_1.html" + GetQuerystring();
 
 }
 
@@ -182,7 +151,7 @@ function Clicku8(e)
 
 if (true) {
 
-	self.location.href="elements_envoyes_base.html" + GetQuerystring();
+	self.location.href="mail_base.html" + GetQuerystring();
 
 }
 
